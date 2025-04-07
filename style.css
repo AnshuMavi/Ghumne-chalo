@@ -1,0 +1,91 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(245, 240, 240);
+}
+
+header {
+    display: flex;
+    margin-left: 20px;
+    color: rgb(86, 82, 81);
+list-style: none;
+box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    padding: 20px 100px;
+}
+.logo img{
+    max-width: 100%;
+    
+}
+div {
+    max-width: 200px;
+}
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+.nav ul{
+display: flex;}
+.nav li{
+   list-style: none;
+    margin-right: 40px;
+}
+nav a{
+    text-decoration: none;
+    font-family: "Dongle-bold";
+    font-size: 1.6rem;
+}
+.nav li:last-child{
+margin-right: 0;
+}
+input {
+    margin-right: 20px;
+}
+header p {
+    font-size: 1.2rem;
+}
+
+header button {
+    padding: 100px 200px;
+    font-size: 3rem;
+    background-color: rgb(244, 240, 252);
+    color: #bf9191;
+    border: none;
+    cursor: pointer;
+}
+
+header button:hover 
+{
+    background-color: #efefb8;
+}
+
+.featured-destinations {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+.destination {
+    width: 30%;
+    text-align: center;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f37676;
+    color: rgb(27, 22, 22);
+}
